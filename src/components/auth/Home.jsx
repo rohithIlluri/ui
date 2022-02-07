@@ -1,13 +1,18 @@
 import React from 'react';
 import Navbar from '../navbar/Navbar';
+
+import './home.css';
 import Header from '../../containers/header/Header';
+import {  Body, Footer} from '../../containers/index'
 
 const Home = () => {
     return (
-        <div>
+        <div className="header__class">
             <Navbar/>
             <Header/>
-        </div>
+            <Body/>
+            <Footer/>
+            </div>
     )
 }
 

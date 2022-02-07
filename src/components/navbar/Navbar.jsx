@@ -1,49 +1,84 @@
-import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import './navbar.css';
+import React from 'react';
+
+
+import './navbar.css'
+
+
+
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+
+  const weMakeItEasyFor=" We make it easy for you to manage your company accesses"
+  const withBrickshareWeG="Thanks to our platform you will be able to digitalise the incorporation documents of your company and manage actions in your company based on the rules depicted in those."
 
   return (
-    <div className="BA__navbar">
-      <div className="BA__navbar-links">
-        <div className="BA__navbar-links_container">
-        <p><a href="/BAChain">BAChain</a></p>
-          <p><a href="/projects">Projects</a></p>
-          <p><a href="/howitworks">How it works</a></p>
-          <p><a href="/technology">Technology</a></p>
-          <p><a href="/security">Security</a></p>
-         
-        </div>
-      </div>
-      <div className="BA__navbar-sign">
-        <p>Sign in</p>
-        <button><a href="/signup">Sign up</a></button>
-      </div>
+    <div className="bachainLandingPage">
+      <div className='headerheroimage'>
+      
+        <div className="logo">
+           <div className="brickshare"><p>BAChain</p><br/></div>
+           </div>
+          
+          <div className="text">
+          <div className="projects"><p>Projects</p></div>
+          <div className="howItWorks"><p>How it works</p></div>
+          <div className="aboutUs"><p>Technology</p></div> 
+          <div className="blog"><p>Security</p></div>
+</div>
+        <div className="heroimage">
+          <div className='patrickTomasso42162Copy2'>
+            <div className='maskCopy85ab14ab'>
+           
+            </div>
+              <div className='patrickTomasso42162Copy2'>
+                <div className='maskCopy'></div>
+                
+                </div>
+                </div>
+                </div>
+      
+             
+            <div className='textbox'>
+              <div className='rectangle19'>
 
-      <div className="BA__navbar-menu">
-        {toggleMenu
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
-        {toggleMenu && (
-        <div className="BA__navbar-menu_container scale-up-center">
-          <div className="BA__navbar-menu_container-links">
-          <p><a href="#BAChain">BAChain</a></p>
-          <p><a href="#projects">Projects</a></p>
-          <p><a href="#howitworks">How it works</a></p>
-          <p><a href="#technology">Technology</a></p>
-          <p><a href="#security">Security</a></p>
-          </div>
-          <div className="BA__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
-          </div>
-        </div>
-        )}
-      </div>
-    </div>
-  );
+              </div>
+              {/*<div className='freetrialbuttonCopy'>
+                <div className='seeProjects0ed37987'>
+                  See Projects
+                </div>
+  </div>*/}
+                
+                  <div className='weMakeItEasyFor'>
+                {weMakeItEasyFor}
+                </div>
+                <div className='withBrickshareWeG'>{withBrickshareWeG}</div>
+                
+                
+   </div>
+                
+              <div className='signinfreetrialbutton2dd4bbc3'>
+                <div className='rectangle3b4044ddf'></div>
+                <div className='rectangle31989e46d'>
+               
+                </div>
+                <div className='signInc7115893'>Sign in</div>
+                <div className='freeTriala4e67d34'>Sign up</div>
+              </div>
+              <div className='signinfreetrialbutton'><div className='rectangle31989e46d'></div>
+                <div className='rectangle3Copy'></div>
+                <div className='signIn'>Sign in</div>
+                <div className='freeTrail'>Sign up</div>
+
+           </div>
+           </div>
+           </div>
+         
+            
+     
+     
+
+ 
+  )
 };
 
 export default Navbar;

@@ -11,7 +11,7 @@ const App = () => {
     return (
         <Router>
         <div className = "App">
-           <div className = "gradient__bg">
+           <div className = "bachainLandingPage">
            <Switch>
                 <Route exact path="/">
                 <Home/>

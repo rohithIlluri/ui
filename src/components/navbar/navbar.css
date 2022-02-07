@@ -1,123 +1,893 @@
-.BA__navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 2rem 6rem;
-}
-
-.BA__navbar-links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
 
-.BA__navbar-links_container {
-    display: flex;
-    flex-direction: row;
-}
+     
 
-.BA__navbar-sign {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+      .bachainLandingPage {
 
-.BA__navbar-links_container p,
-.BA__navbar-sign p,
-.BA__navbar-menu_container p {
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-
-    margin: 0 1rem;
-    cursor: pointer;
-}
-
-.BA__navbar-sign button,
-.BA__navbar-menu_container button {
-    padding: 0.5rem 1rem;
-    color: #fff;
-    background: #FF4820;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.BA__navbar-menu {
-    margin-left: 1rem;
-
-    display: none;
-    position: relative;
-}
-
-
-.BA__navbar-menu_container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
+        display:flex;
     
-    text-align: end;
-    background: var(--color-footer);
-    padding: 2rem;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    margin-top: 1rem;
-    min-width: 210px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
-}
 
-.BA__navbar-menu_container p {
-    margin: 1rem 0;
-}
+        position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+     
+        background-color: rgba(255, 255, 255, 1);
+        width: 100%;
+      height: 100%;
+      
+  
+  }
 
-.BA__navbar-menu_container-links-sign {
-    display: none;
-}
-
-@media screen and (max-width: 1050px) {
-    .BA__navbar-links_container {
-        display: none;
-    }
-
-    .BA__navbar-menu {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .BA__navbar {
-        padding: 2rem 4rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .BA__navbar {
-        padding: 2rem;
-    }
-
-    .BA__navbar-sign {
-        display: none;
-    }
-
-    .BA__navbar-menu_container {
-        top: 20px;
-    }
-
-    .BA__navbar-menu_container-links-sign {
+  
+ 
+  
+  .bachainLandingPage .headerheroimage .logo {
+  
         display: block;
-    }
+        position: absolute;
+        box-sizing: content-box;
+        -ms-transform: rotate(0.00deg);
+        -webkit-transform: rotate(0.00deg);
+        transform: rotate(0.00deg);
+      
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        overflow-x: unset;
+        overflow-y: unset;
+        background-color: transparent;
+        font-size: 10px;
+        width: 10px;
+      height: 1.00px;
+      left: 50.00px;
+      top: 23.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .logo .brickshare {
+
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(0, 0, 0, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 40.00px;
+        font-weight: 100;
+      font-style: normal;
+        font-family: Avenir-Heavy, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        margin-left: 2px;
+        padding-left:0px ;
+        margin-top: 2px;
+        padding-top: 5px;
+       
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .text {
+  
+        display: flex;
+       position:absolute;
+    
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        overflow-x: unset;
+        overflow-y: unset;
+        background-color: transparent;
+      
+        width: 100px;
+      height: 37.00px;
+      left:300px;
+      top: 45px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .text .projects {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(0, 0, 0, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 25.00px;
+        font-weight: 350;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 122.00px;
+      height: 37.00px;
+      
+  }
+  
+  .bachainLandingPage .headerheroimage .text .howItWorks {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(0, 0, 0, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 25.00px;
+        font-weight: 350;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 194.00px;
+      height: 37.00px;
+      left: 184.07px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .text .aboutUs {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(0, 0, 0, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 25.00px;
+        font-weight: 350;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 174.00px;
+      height: 37.00px;
+      left: 437.16px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .text .blog {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(0, 0, 0, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 25.00px;
+        font-weight: 350;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 122.00px;
+      height: 37.00px;
+      left: 636.92px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .heroimage {
+  
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+   
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 900.00px;
+    height: 646.00px;
+    left: 355.00px;
+    top: 200.00px;
+
+  }
+  
+  .bachainLandingPage .headerheroimage .heroimage .patrickTomasso42162Copy2{
+  
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+   
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 900.00px;
+  height: 646.00px;
+
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .heroimage .patrickTomasso42162Copy2.maskCopy85ab14ab {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        background-image: url("../../assets/maskCopy85ab14ab.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 8.00px;
+        border-top-right-radius: 8.00px;
+        border-bottom-left-radius: 8.00px;
+        border-bottom-right-radius: 8.00px;
+        box-shadow: none;
+        width:900.00px;
+        height:646.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .heroimage .patrickTomasso42162Copy2 .patrickTomasso42162Copy2 {
+  
+        display: block;
+        position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        background-image: url("../../assets/patrickTomasso42162Copy2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        opacity: 1;
+        cursor: default;
+        overflow-x: unset;
+        overflow-y: unset;
+        background-color: transparent;
+        width: 900.00px;
+        height: 646.00px;
+     
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .heroimage .patrickTomasso42162Copy2 .patrickTomasso42162Copy2 .maskCopy {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        background-image: url("../../assets/maskCopy.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 8.00px;
+        border-top-right-radius: 8.00px;
+        border-bottom-left-radius: 8.00px;
+        border-bottom-right-radius: 8.00px;
+        box-shadow: none;
+        width: 900.00px;
+    height: 646.00px;
+      
+  }
+  
+  
+  .bachainLandingPage .headerheroimage .textbox {
+  
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+   
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+   
+    width: 900px;
+    height: 200px;
+    margin-right: 3px;
+    margin-top:2rem;
+  
+
+
+    
+    
+
 }
+  
+  .bachainLandingPage .headerheroimage .textbox .rectangle19 {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 1);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 8.00px;
+        border-top-right-radius: 8.00px;
+        border-bottom-left-radius: 8.00px;
+        border-bottom-right-radius: 8.00px;
+        -webkit-filter: drop-shadow(30px 40px 100px rgba(0, 0, 0, 0.06666666666666667));
+      filter: drop-shadow(30px 40px 100px rgba(0, 0, 0, 0.06666666666666667));
+      width: 750.57px;
+      height: 600.01px;
+      left: 30px;
+      top: 90px;
+  
+  }
+  
+ /* .bachainLandingPage .headerheroimage .textbox .freetrialbuttonCopy {
+  
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+   
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+   
+
+}
+  
+  .bachainLandingPage .headerheroimage .textbox .freetrialbuttonCopy .seeProjects0ed37987 {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(255, 255, 255, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 30.00px;
+        font-weight: 700;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 255.00px;
+      height: 37.00px;
+      
+  }*/
+  
+  .bachainLandingPage .headerheroimage .textbox  .weMakeItEasyFor {
+     
+
+    transform: rotate(0.00deg);
+  
+    opacity: 1;
+    cursor: default;
+   
+    background-color: rgba(255, 255, 255, 0);
+ 
+        color: rgba(0, 0, 0, 1);
+        
+        
+        font-size: 62px;
+        font-weight: 800;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        line-height: 75px;
+        letter-spacing: -0.04cm;
+        display: flex;
+        justify-content: center;
+
+     
+        flex-direction: row;
+        margin-right: 5rem;
+        margin-top: 25px;
+        padding-top:200px;
+        padding-right:30px;
+        padding-left:60px;
+        padding-bottom: 30px;
+       
+        
+        
+      
+      /*flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+  
+      margin-right: 5rem;
+     
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      letter-spacing: -0.04em;*/
+      
+    }
+  
+  
+ 
+  
+  .bachainLandingPage .headerheroimage .textbox .withBrickshareWeG {
+
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+    -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+   
+  
+    opacity: 1;
+    cursor: default;
+  
+    background-color: rgba(255, 255, 255, 0);
+    
+   letter-spacing: -0.02cm;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+    
+   
+
+    font-family: Montserrat, Arial;
+  
+   
+
+  line-height: 28px;
+  font-weight: 100;
+  font-size: 25px;
+  
+
+  margin-left: 3.5rem;
+  padding-top:40px;
+ 
+  padding-left: 10px;
+  
+
+
+
+    
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton2dd4bbc3 {
+  
+        display: block;
+        position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        overflow-x: unset;
+        overflow-y: unset;
+        background-color: transparent;
+        width: 526.00px;
+      height: 97.00px;
+      left: 2030.00px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton2dd4bbc3 .rectangle3b4044ddf {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        background-image: url("../../assets/rectangle3b4044ddf.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 16.00px;
+        border-top-right-radius: 16.00px;
+        border-bottom-left-radius: 16.00px;
+        border-bottom-right-radius: 16.00px;
+        -webkit-filter: drop-shadow(0px 6px 17px rgba(31, 121, 230, 0.2));
+      filter: drop-shadow(0px 6px 17px rgba(31, 121, 230, 0.2));
+        width: 229.00px;
+      height: 97.00px;
+      left: 297.00px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton2dd4bbc3 .rectangle3Copyb9c4c79f {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(240, 246, 255, 1);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 16.00px;
+        border-top-right-radius: 16.00px;
+        border-bottom-left-radius: 16.00px;
+        border-bottom-right-radius: 16.00px;
+        box-shadow: none;
+        width: 229.00px;
+      height: 97.00px;
+      
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton2dd4bbc3 .signInc7115893 {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(33, 120, 255, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 30.00px;
+        font-weight: 700;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 108.00px;
+      height: 37.00px;
+      left: 69.00px;
+      top: 27.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton2dd4bbc3 .freeTriala4e67d34 {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(255, 255, 255, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 30.00px;
+        font-weight: 700;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 120.00px;
+      height: 37.00px;
+      left: 348.00px;
+      top: 29.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton {
+  
+        display: block;
+        position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        overflow-x: unset;
+        overflow-y: unset;
+        background-color: transparent;
+        width: 526.00px;
+      height: 97.00px;
+      left: 2030.00px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton .rectangle31989e46d {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        background-image: url("../../assets/rectangle31989e46d.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 16.00px;
+        border-top-right-radius: 16.00px;
+        border-bottom-left-radius: 16.00px;
+        border-bottom-right-radius: 16.00px;
+        -webkit-filter: drop-shadow(0px 6px 17px rgba(31, 121, 230, 0.2));
+      filter: drop-shadow(0px 6px 17px rgba(31, 121, 230, 0.2));
+        width: 229.00px;
+      height: 97.00px;
+      left: 297.00px;
+      top: 0.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton .rectangle3Copy {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(240, 246, 255, 1);
+        border-bottom-color: rgba(151, 151, 151, 1);
+        border-bottom-style: none;
+        border-bottom-width: 1.00px;
+        border-left-color: rgba(151, 151, 151, 1);
+        border-left-style: none;
+        border-left-width: 1.00px;
+        border-right-color: rgba(151, 151, 151, 1);
+        border-right-style: none;
+        border-right-width: 1.00px;
+        border-top-color: rgba(151, 151, 151, 1);
+        border-top-style: none;
+        border-top-width: 1.00px;
+        border-top-left-radius: 16.00px;
+        border-top-right-radius: 16.00px;
+        border-bottom-left-radius: 16.00px;
+        border-bottom-right-radius: 16.00px;
+        box-shadow: none;
+        width: 229.00px;
+      height: 97.00px;
+      
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton .signIn {
+      position: absolute;
+        box-sizing: content-box;
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+        letter-spacing: 0.00px;
+        color: rgba(33, 120, 255, 1);
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 30.00px;
+        font-weight: 700;
+      font-style: normal;
+        font-family: Montserrat, Arial;
+        text-decoration: none;
+        box-shadow: none;
+        overflow-x: unset;
+        overflow-y: unset;
+        white-space: pre;
+        width: 108.00px;
+      height: 37.00px;
+      left: 69.00px;
+      top: 27.00px;
+  
+  }
+  
+  .bachainLandingPage .headerheroimage .signinfreetrialbutton .freeTrial {
+     
+       
+      transform: rotate(0.00deg);
+      -ms-transform-origin: center;
+      -webkit-transform-origin: center;
+      transform-origin: center;
+        opacity: 1;
+        cursor: default;
+        background-color: rgba(255, 255, 255, 0);
+     
+        text-align: left;
+       
+        color:white;
+        -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+        font-size: 30.00px;
+        font-weight: 700;
+  
+        font-family: Montserrat, Arial;
+       
+        width: 120.00px;
+      height: 37.00px;
+      left: 348.00px;
+      top: 29.00px;
+  
+  }
